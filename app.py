@@ -1,6 +1,6 @@
 import streamlit as st
 import difflib
-from st_annotated_text import annotated_text
+from annotated_text import annotated_text
 
 def process_diff(diff):
     processed_diff = []
